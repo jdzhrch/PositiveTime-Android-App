@@ -1,0 +1,45 @@
+﻿分享到配置分享6.27 1、简单地列出了手机中所有已安装app
+     2、简易的为登录/注册准备的后端
+6.28 1、实现通过seekbar设置权重 数据持久化
+     2、显示app使用数据（饼状图、柱状图）
+6.29 1、显示app使用数据的ui美化
+     2、设置权重的ui美化
+6.30 1、实现程序锁 将娱乐类app锁住
+     2、实现悬浮窗，和它的优先级。
+7.2  1、supervised learning学习，python scikit-learn，pandas，numpy等相关库学习。
+     2、登陆/注册客户端实现，客户端暂不能连接上服务器
+7.4  1、后端部署到云服务器
+7.5  1、总体逻辑完善
+     2、登录注册加密
+    3、主界面
+    4、客户端已能连到服务器
+7.7  1、数据库设计
+     2、“开始学习”
+7.10  1、放松一下
+      2、开始学习计入ptime
+7.11  1、“制定计划”功能：设置total pweight　nweight
+      2、替换seekbar 采用第三方库bubbleseekbar
+      3、app search 界面
+      4、配置分享到qq，qzone，微信，weibo
+    5、继续写服务器端，学习tensorflow
+7.12  1、设置total pweight nweight持久化
+      2、app search ui完成 采用第三方库 materialratingbar   
+    3、实现app模糊搜索功能
+7.13  1、实现用户聚类
+7.14  1、查询相似用户
+7.17  1、build错误修复
+      2、分享功能
+7.18  1、userdetail
+7.19  1、集成userdetail
+      2、折线图
+7.20  1、AT计算方式改善
+      2、分享
+8.8至8.10 张荣城：1、外观
+		  2、material design风格的菜单transition
+		  3、tomatoactivity返回时不销毁
+8.11至8.12 张荣城：1、修复设置权重界面 seekbar气泡移位
+8.13 张荣城：1、activity切换动画
+	     2、color selector切换风格无法实现 最多只能实现几个style间的切换
+8.15 张荣城：1、修复tomatoactivity的bug
+	     2、统一几个activity的外观
+	     3、悬浮窗开关采用switch

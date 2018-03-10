@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/menu_item_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/menu_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:singleLine="true"
+                android:layout_below="@+id/menu_item_icon"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/accent"
+                android:textSize="30sp"/>
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/CustomSwitchCompat"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/menu_item_name"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:minWidth="40dp"
+                android:minHeight="20dp"
+                android:layout_height="wrap_content"
+                android:textOff="关闭"
+                android:textOn="开启"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
